@@ -1,0 +1,53 @@
+
+.Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite; }
+
+@keyframes blink {
+    0% {
+        opacity: 1; }
+    50% {
+        opacity: 0; }
+    100% {
+        opacity: 1; } }
+
+#header1
+{
+
+}
+.TypistExample{
+    display: block;
+}
+
+.TypistExample h1 {
+    margin-top: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: WHITE;
+    font: bold 65px Helvetica, Sans-Serif;
+}
+p {
+    text-align: center;
+    margin-top: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: WHITE;
+    font: bold 25px Helvetica, Sans-Serif;
+}
+
+.TypistExample h1:hover {
+    color: goldenrod;
+    text-decoration: none; }
+
+.TypistExample-header {
+    position: relative;
+    height:40em;
+    color: #22BAD9;
+}
+
