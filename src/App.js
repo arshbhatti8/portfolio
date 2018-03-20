@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Parallax from './Components/Parallax';
-
+import HomePageLayout from './Components/HomePageLayout';
 
 
 class App extends Component {
@@ -8,10 +7,11 @@ class App extends Component {
 
       return (
           <div>
-          <Parallax />
+              <HomePageLayout/>
           </div>
 
-    );
+
+      );
   }
 }
 

@@ -3,6 +3,7 @@ import Typist from 'react-typist';
 import  '../stylesheets/typist.css';
 
 
+
 class TypeWriter extends Component {
 
     constructor(props) {
@@ -29,28 +30,34 @@ render() {
     const  { text }  = this.state;
         return(
             text&&
-            (<div className={"TypistExample-header"} >
-                <Typist className={"TypistExample"} onTypingDone={this.onTypingDone}>
+            (
+                <div className={"TypistExample"} >
+
+                    <Typist
+                        cursor={{show: false}}
+                        className={"TypistExample-header"}
+                        onTypingDone={this.onTypingDone}>
                     <Typist.Delay ms={1000} />
-                    {text.map((i, index) => {
+
+
+                    {
+                        text.map((i, index) => {
                         return (
+
                             <div key={index}>
+
                                 <h1>{i}</h1>
                                 {<Typist.Backspace count={12} delay={1000} />}
+
                             </div>
                         );
-                    })}
-                </Typist>
-
-                <p>
-                    __________<br/>Arsh Bhatti<br/>
-                    Front-End Developer,<br/>
-                    Based in San Jose, <br/>
-                    M.S in Software Engineering from San Jose State.
-                </p>
+                    }
+                    )}
+                    </Typist>
 
 
             </div>
+
             ));
     }
 }

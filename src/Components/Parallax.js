@@ -3,25 +3,20 @@ import { Parallax } from 'react-parallax';
 import Typist from './Typist';
 
 const parallax = () => {
-    let greetings=["Hi","Ola"];
+    let greetings=["Hello","Hola","ਸਤ ਸ੍ਰੀ ਅਕਾਲ"];
     return (
 
-        <div className={"page-container"}>
-            <div className={"row"}>
-            <div className={"col-md-12"}>
+        <div id="Intro" className={"page-container"}>
+
             <Parallax
-                blur={{min:-15, max:20}}
-                bgImage={require('../images/sjsu3.jpg')}
+                blur={{min:-20, max:20}}
+                bgImage={require('../images/galaxy1.jpg')}
+                style={{maxHeight:635}}
                 bgImageAlt="the cat"
-                strength={2}
-            >
+                strength={2}>
                 <Typist text={greetings}/>
                 <div style={{height:'200px'}}/>
             </Parallax>
-            </div>
-
-            </div>
-
         </div>
     );
 };

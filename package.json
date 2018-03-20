@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.5",
+    "radium": "^0.22.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-parallax": "^1.6.0",
     "react-scripts": "1.1.0",
     "react-typewriter": "^0.4.1",
     "react-typist": "^2.0.4",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "semantic-ui-css": "^2.3.0",
+    "semantic-ui-react": "^0.78.3"
   },
   "scripts": {
     "start": "react-scripts start",
