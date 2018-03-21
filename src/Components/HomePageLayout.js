@@ -28,6 +28,18 @@ export default class HomePageLayout extends Component {
 
                                     <br/><br/>When I'm not in front of a computer screen, I'm probably dancing with with my team : Bhangra Empire.
                                 </p>
+                                <form method='get' action={require('../Assets/Arshpreet_Bhatti-Web Development.pdf')}>
+                                <Button color='red' size='huge' animated='vertical'>
+                                    <Button.Content visible>
+                                        Download Resume
+                                    </Button.Content>
+                                    <Button.Content hidden>
+
+                                            <Icon size='large' name='download'/>
+                                    </Button.Content>
+                                </Button>
+                                </form>
+
                             </Grid.Column>
                             <Grid.Column width={6} floated="right">
                                 <Card raised centered>

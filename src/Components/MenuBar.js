@@ -37,7 +37,7 @@ const MenuBar = (props) => {
                                 href={'#'+i.name}
                                 name={i.name}
                                 onClick={props.handleItemClick}
-                                index={i.key}
+                                key={index}
                             />
 
                         }
