@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2af49b-e9cf-4519-afcc-874048f7c48a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Assets/images/bars.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Spinner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stylesheets/Spinner.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/HomePageLayout.js" afterPath="$PROJECT_DIR$/src/Components/HomePageLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/MenuBar.js" afterPath="$PROJECT_DIR$/src/Components/MenuBar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Parallax.js" afterPath="$PROJECT_DIR$/src/Components/Parallax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/SecondContainer.js" afterPath="$PROJECT_DIR$/src/Components/SecondContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/HomePageLayout.css" afterPath="$PROJECT_DIR$/src/stylesheets/HomePageLayout.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/Bootstrap.png" afterPath="$PROJECT_DIR$/src/Assets/images/Bootstrap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/Diversity-In-Tech.png" afterPath="$PROJECT_DIR$/src/Assets/images/Diversity-In-Tech.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/Express.png" afterPath="$PROJECT_DIR$/src/Assets/images/Express.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/MongoDB.png" afterPath="$PROJECT_DIR$/src/Assets/images/MongoDB.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/MySql.png" afterPath="$PROJECT_DIR$/src/Assets/images/MySql.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/Redux-Icon.png" afterPath="$PROJECT_DIR$/src/Assets/images/Redux-Icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/SJSU2.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/SJSU2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/Semantic.png" afterPath="$PROJECT_DIR$/src/Assets/images/Semantic.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/What-I-Do.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/What-I-Do.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/What-I-Do2.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/What-I-Do2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/What-I-Do3.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/What-I-Do3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/What-I-Do4.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/What-I-Do4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/background.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/background.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/diversity-in-tech.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/diversity-in-tech.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/galaxy1.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/galaxy1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/galaxy2.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/galaxy2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/galaxy3.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/galaxy3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/galaxy4.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/galaxy4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/html.png" afterPath="$PROJECT_DIR$/src/Assets/images/html.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/logo.png" afterPath="$PROJECT_DIR$/src/Assets/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/profile.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/profile.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/react-logo.ico" afterPath="$PROJECT_DIR$/src/Assets/images/react-logo.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/responsive-ui-design-logo.png" afterPath="$PROJECT_DIR$/src/Assets/images/responsive-ui-design-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/rest-logo.png" afterPath="$PROJECT_DIR$/src/Assets/images/rest-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/sjsu.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/sjsu.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/sjsu3.jpg" afterPath="$PROJECT_DIR$/src/Assets/images/sjsu3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/images/web-dev.png" afterPath="$PROJECT_DIR$/src/Assets/images/web-dev.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Spinner.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Spinner.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Spinner.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -72,16 +36,6 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bars.svg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Assets/images/bars.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -344,7 +298,7 @@
       <workItem from="1521576710421" duration="4677000" />
       <workItem from="1521592157069" duration="6266000" />
       <workItem from="1521603640576" duration="433000" />
-      <workItem from="1521671475397" duration="2514000" />
+      <workItem from="1521671475397" duration="2577000" />
     </task>
     <task id="LOCAL-00001" summary="Added Download resume button. Resume download is facilitated by surrounding button with form tag and making a get request">
       <created>1521597885509</created>
@@ -360,16 +314,24 @@
       <option name="project" value="LOCAL" />
       <updated>1521598511682</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Committing before ejecting for adding support for svg loaders.">
+      <created>1521675306100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521675306100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136594000" />
+    <option name="totallyTimeSpent" value="136657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1532738" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1532738" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -397,7 +359,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Download resume button. Resume download is facilitated by surrounding button with form tag and making a get request" />
     <MESSAGE value="Adding resume in PDF format" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding resume in PDF format" />
+    <MESSAGE value="Committing before ejecting for adding support for svg loaders." />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing before ejecting for adding support for svg loaders." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -776,6 +739,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assets/images/bars.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Spinner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -783,14 +754,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assets/images/bars.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
