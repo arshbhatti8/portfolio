@@ -16,7 +16,6 @@ export default class HomePageLayout extends Component {
                     <Grid container stackable verticalAlign='middle'>
                         <Grid.Row>
                             <Grid.Column width={8}>
-
                                 <Header as='h1' style={{fontSize: '3em'}}>Hi, I'm Arsh Bhatti</Header>
                                 <Header as='h2' style={{fontSize: '1.3em'}}>I'm a design-minded,
                                     detail oriented software engineer passionate about combining beautiful code with beautiful design.
@@ -39,11 +38,10 @@ export default class HomePageLayout extends Component {
                                     </Button.Content>
                                 </Button>
                                 </form>
-
                             </Grid.Column>
                             <Grid.Column width={6} floated="right">
                                 <Card raised centered>
-                                    <Image src={require('../images/profile.jpg')} />
+                                    <Image src={require('../Assets/images/profile.jpg')} />
                                     <Card.Content>
                                         <Card.Header>Arsh Bhatti</Card.Header>
                                         <Card.Meta>Connect with me on:</Card.Meta>
@@ -78,8 +76,8 @@ export default class HomePageLayout extends Component {
                             </Grid.Column>
                             <Grid.Column width={8} >
                                 <Icon name='angular'  size='massive' color='red' />
-                                <Image src={require('../images/Redux-Icon.png')} style={{height:'90px',width:'90px',display:'inline',backgroundColor:'gold',borderRadius:'10%'}}/>
-                                <Image src={require('../images/react-logo.ico')} style={{height:'150px',width:'150px',display:'inline'}}/>
+                                <Image src={require('../Assets/images/Redux-Icon.png')} style={{height:'90px',width:'90px',display:'inline',backgroundColor:'gold',borderRadius:'10%'}}/>
+                                <Image src={require('../Assets/images/react-logo.ico')} style={{height:'150px',width:'150px',display:'inline'}}/>
 
                                 <Header as='h2'>
                                     {' '}FRONT-END FRAMEWORKS & LIBRARIES
@@ -92,9 +90,9 @@ export default class HomePageLayout extends Component {
 
                         <Grid.Row>
                             <Grid.Column width={8}>
-                                <Image fluid style={{width:"150px",height:"150px",display:'inline'}} src={require('../images/rest-logo.png')} />
+                                <Image fluid style={{width:"150px",height:"150px",display:'inline'}} src={require('../Assets/images/rest-logo.png')} />
                                 <Icon name='node'  size='massive' color='green' />
-                                <Image fluid style={{width:"200px",height:"12s0px",display:'inline',padding:'8px'}} src={require('../images/Express.png')} />
+                                <Image fluid style={{width:"200px",height:"12s0px",display:'inline',padding:'8px'}} src={require('../Assets/images/Express.png')} />
                                 <Header as='h2'>
                                     {' '}BACKEND LIBRARIES
                                 </Header>
@@ -105,8 +103,8 @@ export default class HomePageLayout extends Component {
                             </Grid.Column>
 
                             <Grid.Column width={8}>
-                                <Image fluid style={{width:"150px",height:"150px",display:'inline'}} src={require('../images/MongoDB.png')} />
-                                <Image fluid style={{width:"150px",height:"100px",display:'inline'}} src={require('../images/MySql.png')} />
+                                <Image fluid style={{width:"150px",height:"150px",display:'inline'}} src={require('../Assets/images/MongoDB.png')} />
+                                <Image fluid style={{width:"150px",height:"100px",display:'inline'}} src={require('../Assets/images/MySql.png')} />
                                 <Header as='h2'>
                                     {' '}DATABASES
                                 </Header>

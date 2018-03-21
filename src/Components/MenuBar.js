@@ -25,7 +25,7 @@ const MenuBar = (props) => {
                 pointing
                 size="huge">
                 <Menu.Item>
-                    <Image size='mini' src={require('../images/logo.png')} />
+                    <Image size='mini' src={require('../Assets/images/logo.png')} />
                 </Menu.Item >
                 <Container>
                     {

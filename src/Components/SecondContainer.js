@@ -30,7 +30,7 @@ render(){
                                 bordered
                                 rounded
                                 size='large'
-                                src={require("../images/SJSU2.jpg")}
+                                src={require("../Assets/images/SJSU2.jpg")}
                             />
                         </Grid.Column>
                     </Grid.Row>

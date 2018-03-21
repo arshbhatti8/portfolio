@@ -10,7 +10,7 @@ const parallax = () => {
 
             <Parallax
                 blur={{min:-20, max:20}}
-                bgImage={require('../images/galaxy1.jpg')}
+                bgImage={require('../Assets/images/galaxy1.jpg')}
                 style={{maxHeight:710}}
                 bgImageAlt="the cat"
                 strength={2}>
