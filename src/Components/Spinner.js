@@ -3,8 +3,8 @@ import '../stylesheets/Spinner.css'
 import Bars from '../Assets/images/bars.svg';
 const Spinner = props => {
     return (
-        <div className='spinner'>
-            <img src={Bars}/>
+        <div className='spinnerWrapper'>
+            <img className='spinner' src={Bars}/>
         </div>
     );
 

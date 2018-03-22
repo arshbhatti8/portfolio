@@ -2,7 +2,8 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 import Typist from './Typist';
 
-const parallax = () => {
+
+const TypistBackground = () => {
     let greetings=["Hello","Hola","ਸਤ ਸ੍ਰੀ ਅਕਾਲ"];
     return (
 
@@ -21,4 +22,4 @@ const parallax = () => {
     );
 };
 
-export default parallax;
+export default TypistBackground;

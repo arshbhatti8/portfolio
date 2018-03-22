@@ -38,8 +38,6 @@ render() {
                         className={"TypistExample-header"}
                         onTypingDone={this.onTypingDone}>
                     <Typist.Delay ms={1000} />
-
-
                     {
                         text.map((i, index) => {
                         return (
@@ -54,10 +52,7 @@ render() {
                     }
                     )}
                     </Typist>
-
-
             </div>
-
             ));
     }
 }

@@ -1,15 +1,30 @@
 import React , {Component} from 'react';
-import {Responsive, Sidebar,Menu,Segment,Container,Icon} from 'semantic-ui-react';
+import {Responsive, Sidebar,Menu,Visibility,Container,Icon,Segment} from 'semantic-ui-react';
 import PropTypes from 'prop-types';
+import Parallax from './TypistBackground'
 
+
+const menuStyle = {
+    border: 'none',
+    padding:0,
+    boxShadow: 'none',
+    margin:0,
+
+};
 class mobileContainer extends Component {
     state = {};
+
+    handlePusherClick = () => {
+        const {sidebarOpened} =this.state;
+        if(sidebarOpened) this.setState({sidebarOpened:false})
+    };
 
     handleToggle = () => this.setState({ sidebarOpened: !this.state.sidebarOpened });
     handleItemClick = (e, { name }) => this.setState({ activeItem: name });
     items= [{ key: 'Home', name: 'Home'},
         { key: 'Charts', name: 'Charts'},
         { key: 'References', name: 'References' }];
+
     render(){
         const { children } = this.props;
         const { sidebarOpened } = this.state;
@@ -34,34 +49,36 @@ class mobileContainer extends Component {
                             })
                         }
                     </Sidebar>
+
                     <Sidebar.Pusher
                         dimmed={sidebarOpened}
-                        onClick={this.handleToggle}
+                        onClick={this.handlePusherClick}
                         style={{ minHeight: '100vh' }}>
-                        <Segment
-                            inverted
-                            textAlign='center'
-                            style={{ minHeight: 350, padding: '1em 0em' }}
-                            vertical>
+                        <Visibility
+                            onBottomPassed={this.showFixedMenu}
+                            onBottomPassedReverse={this.hideFixedMenu}
+                            once={false}>
+                            <Segment inverted textAlign='center' style={{ minHeight: 50, padding: '1em 0em' }} vertical>
                             <Container>
                                 <Menu
-                                    inverted
                                     pointing
                                     secondary
+                                    style={menuStyle}
                                     size='large'>
                                     <Menu.Item
                                         onClick={this.handleToggle}>
-                                        <Icon name='sidebar' />
+                                        <Icon style={{color:'#FFDF00'}} name='sidebar' />
                                     </Menu.Item>
                                 </Menu>
                             </Container>
-                        </Segment>
-
+                            </Segment>
+                        <Parallax/>
+                    </Visibility>
                         {children}
                     </Sidebar.Pusher>
+
                 </Sidebar.Pushable>
             </Responsive>
-
         );
     }
 }

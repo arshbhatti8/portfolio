@@ -1,0 +1,66 @@
+.atomWrapper{
+    text-align: center;
+}
+
+.atom{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    max-height:256px ;
+    max-width: 256px;
+
+}
+svg {
+    max-width: 256px;
+    max-height: 256px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+path {
+    fill-opacity:0;
+    stroke: #000;
+    stroke-width: 3;
+    stroke-dasharray: 351.0306396484375em;
+    stroke-dashoffset:351em ;
+    -webkit-animation-name: draw;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-timing-function: ease;
+}
+circle {
+    fill-opacity:0;
+    stroke: #000;
+    stroke-width: 3;
+    stroke-dasharray: 304em;
+    stroke-dashoffset:303.5em ;
+    -webkit-animation-name: draw;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+
+
+@-webkit-keyframes draw {
+    to {
+        stroke-dashoffset: 0.8;
+    }
+    to{
+        fill-opacity: 1;
+    }
+}
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0.8;
+    }
+    to{
+        fill-opacity: 1;
+    }
+}

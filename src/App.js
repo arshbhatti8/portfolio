@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HomePageLayout from './Components/HomePageLayout';
-import Spinner from './Components/Spinner';
+import Spinner from "./Components/Spinner";
+
 
 class App extends Component {
 
@@ -11,7 +12,7 @@ class App extends Component {
 
     }
     componentDidMount() {
-        this.setState({isloading: false})
+        setTimeout(()=> this.setState({isloading: false}),3000);
     }
     render() {
 

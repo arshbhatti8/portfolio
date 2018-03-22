@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import { Responsive, Visibility} from 'semantic-ui-react'
-import Parallax from './Parallax';
+import Parallax from './TypistBackground';
 import PropTypes from 'prop-types';
 import MenuBar from './MenuBar';
 
-
-
-
 class DesktopContainer extends Component {
-    state = {
-    };
+    state = {};
 
     showFixedMenu = () => this.setState({ menuFixed: true });
 
@@ -27,8 +23,7 @@ class DesktopContainer extends Component {
                     onBottomPassedReverse={this.hideFixedMenu}
                     once={false}>
 
-                    <MenuBar
-                        menuFixed={menuFixed}/>
+                    <MenuBar menuFixed={menuFixed}/>
 
                     <Parallax/>
 
