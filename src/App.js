@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import HomePageLayout from './Components/HomePageLayout';
-import Spinner from "./Components/Spinner";
+import Spinner from "./Components/loadingSpinner";
 
 
 class App extends Component {

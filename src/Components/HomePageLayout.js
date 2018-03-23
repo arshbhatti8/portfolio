@@ -4,16 +4,17 @@ import ResponsiveContainer from './ResponsiveContainer';
 import '../stylesheets/HomePageLayout.css';
 import ProfileCard from '../Components/ProfileCard';
 import ProfileInfo from '../Components/ProfileInfo';
-import WhatIDo from '../Components/WhatIDo';
+import WhatIDo from './WhatIDoLayout';
 import Footer from '../Components/Footer';
+import ProjectsGrid from './ProjectsLayout'
 
-
-export default class HomePagweLayout extends Component {
+export default class HomePageLayout extends Component {
 
     render() {
         return (
             <ResponsiveContainer>
                 <Segment id='About' style={{padding: '8em 0em'}} vertical>
+
                     <Grid container stackable verticalAlign='middle'>
                         <Grid.Row>
                             <Grid.Column width={8}>
@@ -30,14 +31,7 @@ export default class HomePagweLayout extends Component {
                     <WhatIDo/>
                 </div>
                 <Segment style={{padding: '8em 0em'}} vertical>
-                    <Grid container verticalAlign='middle' relaxed stackable>
-                        <Grid columns='equal'>
-                        <Grid.Row>
-                            <Grid.Column fluid width={16} >
-                            </Grid.Column>
-                        </Grid.Row>
-                        </Grid>
-                    </Grid>
+                    <ProjectsGrid/>
                 </Segment>
                 <Segment inverted vertical style={{padding: '5em 0em'}}>
                     <Container>

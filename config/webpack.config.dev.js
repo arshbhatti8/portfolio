@@ -122,6 +122,7 @@ module.exports = {
         ],
         include: paths.appSrc,
       },
+
       {
         // "oneOf" will traverse all following loaders until one will
         // match the requirements. When no loader matches it will fall
@@ -138,6 +139,25 @@ module.exports = {
               name: 'static/media/[name].[hash:8].[ext]',
             },
           },
+            {
+                test: /\.(gif|png|jpe?g|svg)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            hash: 'sha512',
+                            digest: 'hex',
+                            name: '[hash].[ext]',
+                        }
+                    },
+                    {
+                        loader:'image-webpack-loader',
+                        options:{
+                            bypassOnDebug:true,
+                        },
+                    }
+                ],
+            },
           // Process JS with Babel.
           {
             test: /\.(js|jsx|mjs)$/,
@@ -166,25 +186,7 @@ module.exports = {
                   importLoaders: 1,
                 },
               },
-                {
-                  test: /\.(gif|png|jpe?g|svg)$/i,
-                    use: [
-                        {
-                            loader: 'file-loader',
-                            options: {
-                                hash: 'sha512',
-                                digest: 'hex',
-                                name: '[hash].[ext]',
-                            }
-                        },
-                        {
-                            loader:'image-webpack-loader',
-                            options:{
-                                bypassOnDebug:true,
-                            },
-                        }
-                    ],
-                },
+
               {
                 loader: require.resolve('postcss-loader'),
                 options: {

@@ -2,7 +2,7 @@ import React from 'react';
 import {Header,Button,Icon} from 'semantic-ui-react';
 
 
-const ProfileInfo = ({ }) => {
+const ProfileInfo = () => {
     return (
         <div>
             <Header as='h1' style={{fontSize: '3em'}}>Hi, I'm Arsh Bhatti</Header>

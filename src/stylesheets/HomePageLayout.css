@@ -1,7 +1,7 @@
 .WhatIDo
 {
     /* The image used */
-    background-image: url("../Assets/images/What-I-Do4.jpg");
+    background-image: url("../Assets/images/caffiene.jpg");
     /* Full height */
     height: 100%;
 
@@ -19,3 +19,4 @@
 .WhatIDo h2,.WhatIDo h1 {
     color:white !important;
 }
+

@@ -127,25 +127,7 @@ module.exports = {
           },
         ],
         include: paths.appSrc,
-      }, {
-            test: /\.(gif|png|jpe?g|svg)$/i,
-            use: [
-                {
-                    loader: 'file-loader',
-                    options: {
-                        hash: 'sha512',
-                        digest: 'hex',
-                        name: '[hash].[ext]',
-                    }
-                },
-                {
-                    loader:'image-webpack-loader',
-                    options:{
-                        bypassOnDebug:true,
-                    },
-                }
-            ],
-        },
+      },
       {
         // "oneOf" will traverse all following loaders until one will
         // match the requirements. When no loader matches it will fall
@@ -161,6 +143,25 @@ module.exports = {
               name: 'static/media/[name].[hash:8].[ext]',
             },
           },
+            {
+                test: /\.(gif|png|jpe?g|svg)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            hash: 'sha512',
+                            digest: 'hex',
+                            name: '[hash].[ext]',
+                        }
+                    },
+                    {
+                        loader:'image-webpack-loader',
+                        options:{
+                            bypassOnDebug:true,
+                        },
+                    }
+                ],
+            },
           // Process JS with Babel.
           {
             test: /\.(js|jsx|mjs)$/,
