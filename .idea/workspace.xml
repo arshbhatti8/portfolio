@@ -271,7 +271,7 @@
       <workItem from="1521671475397" duration="30111000" />
       <workItem from="1521745378762" duration="2284000" />
       <workItem from="1521767979696" duration="22743000" />
-      <workItem from="1521801464249" duration="4563000" />
+      <workItem from="1521801464249" duration="5159000" />
     </task>
     <task id="LOCAL-00001" summary="Added Download resume button. Resume download is facilitated by surrounding button with form tag and making a get request">
       <created>1521597885509</created>
@@ -326,7 +326,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193781000" />
+    <option name="totallyTimeSpent" value="194377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
