@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Typist from 'react-typist';
-import  '../stylesheets/typist.css';
+import '../stylesheets/Typist.css';
 
 
 
