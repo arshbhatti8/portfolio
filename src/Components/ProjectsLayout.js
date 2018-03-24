@@ -32,7 +32,8 @@ class ProjectsGrid extends Component {
                     <ProjectInfo
                         header="Sikh Student Association Website"
                         paragraph="A web application a student organization at San Jose State University
-                        The website was based on HTML5, CSS3 and Bootstrap"/>
+                        The website was based on HTML5, CSS3 and Bootstrap"
+                        ssa/>
                 </Grid.Column>
             </Grid.Row>
 
@@ -46,7 +47,8 @@ class ProjectsGrid extends Component {
                         <ProjectInfo
                         header="Nursing Survey Website"
                         paragraph="A React JS based website that uses
-                        React Charts 2 for displaying the results of a survey conducted by a student of Nursing Majors. "/>
+                        React Charts 2 for displaying the results of a survey conducted by a student of Nursing Majors. "
+                        nursing/>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>

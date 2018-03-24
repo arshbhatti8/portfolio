@@ -18,7 +18,7 @@ const WhatIDo = () => {
                             I have a passion for developing pixel-perfect websites and apps while maintaining a semantic, modular, and DRY code base.
                         </p>
                     </Grid.Column>
-                    <Grid.Column width={8} >
+                    <Grid.Column width={8}>
                         <Icon name='angular'  size='massive' color='red' />
                         <Image src={require('../Assets/images/Redux-Icon.png')} style={{height:'90px',width:'90px',display:'inline',backgroundColor:'gold',borderRadius:'10%'}}/>
                         <Image src={require('../Assets/images/react-logo.ico')} style={{height:'150px',width:'150px',display:'inline'}}/>
