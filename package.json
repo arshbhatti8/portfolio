@@ -39,6 +39,7 @@
     "react-dev-utils": "^5.0.0",
     "react-dom": "^16.2.0",
     "react-parallax": "^1.6.0",
+    "react-particles-js": "^2.1.2",
     "react-typewriter": "^0.4.1",
     "react-typist": "^2.0.4",
     "redux": "^3.7.2",

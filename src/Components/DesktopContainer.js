@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Responsive, Visibility} from 'semantic-ui-react'
-import Parallax from './TypistBackground';
+import TypistBackground from './TypistBackground';
 import PropTypes from 'prop-types';
 import MenuBar from './MenuBar';
+import Radium ,{StyleRoot} from 'radium';
 
 class DesktopContainer extends Component {
     state = {};
@@ -16,6 +17,7 @@ class DesktopContainer extends Component {
         const { children } = this.props;
 
         return (
+            <StyleRoot>
             <Responsive {...Responsive.onlyComputer}>
 
                 <Visibility
@@ -25,13 +27,14 @@ class DesktopContainer extends Component {
 
                     <MenuBar menuFixed={menuFixed}/>
 
-                    <Parallax/>
+                    <TypistBackground/>
 
                 </Visibility>
 
                 {children}
 
             </Responsive>
+            </StyleRoot>
         );
 
     }
@@ -39,4 +42,4 @@ class DesktopContainer extends Component {
 DesktopContainer.propTypes={
     children:PropTypes.node,
 };
-export default DesktopContainer;
+export default Radium(DesktopContainer);

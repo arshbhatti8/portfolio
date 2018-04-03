@@ -14,7 +14,6 @@ export default class HomePageLayout extends Component {
         return (
             <ResponsiveContainer>
                 <Segment id='About' style={{padding: '8em 0em'}} vertical>
-
                     <Grid container stackable verticalAlign='middle'>
                         <Grid.Row>
                             <Grid.Column width={8}>
@@ -26,7 +25,6 @@ export default class HomePageLayout extends Component {
                         </Grid.Row>
                     </Grid>
                 </Segment>
-
                 <div id="What I do" className={"WhatIDo"} style={{padding:'8em 2em'}}>
                     <WhatIDo/>
                 </div>
@@ -38,8 +36,6 @@ export default class HomePageLayout extends Component {
                         <Footer/>
                     </Container>
                 </Segment>
-
-
             </ResponsiveContainer>
         );
 

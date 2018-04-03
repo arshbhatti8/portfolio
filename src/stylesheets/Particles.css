@@ -1,0 +1,22 @@
+.particles{
+
+    z-index: 6;
+    background-color: #000;
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#typistWrapper{
+    position: absolute;
+    z-index: 5;
+    left:35%;
+    width:400px;
+
+}

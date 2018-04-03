@@ -2,7 +2,7 @@ import React , {Component} from 'react';
 import {Responsive, Sidebar,Menu,Visibility,Container,Icon,Segment} from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import Parallax from './TypistBackground'
-
+import Radium ,{StyleRoot} from 'radium';
 
 const menuStyle = {
     border: 'none',
@@ -30,7 +30,7 @@ class mobileContainer extends Component {
         const { sidebarOpened } = this.state;
         const {activeItem}=this.state;
         return(
-            <Responsive {...Responsive.onlyMobile}>
+            <StyleRoot><Responsive {...Responsive.onlyMobile}>
                 <Sidebar.Pushable>
                     <Sidebar
                         as={Menu}
@@ -78,7 +78,7 @@ class mobileContainer extends Component {
                     </Sidebar.Pusher>
 
                 </Sidebar.Pushable>
-            </Responsive>
+            </Responsive></StyleRoot>
         );
     }
 }
@@ -87,4 +87,4 @@ mobileContainer.propTypes={
 };
 
 
-export default mobileContainer;
+export default Radium(mobileContainer);

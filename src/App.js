@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import HomePageLayout from './Components/HomePageLayout';
 import Spinner from "./Components/loadingSpinner";
-
+import Radium ,{StyleRoot} from 'radium';
 
 class App extends Component {
 
     state={};
     constructor() {
         super();
-        this.state={isloading:true}
+        this.state={isloading:false}
 
     }
     componentDidMount() {
@@ -22,4 +22,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Radium(App);
