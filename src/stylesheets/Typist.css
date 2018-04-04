@@ -13,32 +13,11 @@
     100% {
         opacity: 1; } }
 
-.TypistExample{
-    display:block;
-}
-.Typist .Cursor{
-    display:inline-block;
-}
 
-.TypistExample h1,.Cursor--blinking {
-    margin-top: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+.TypistExample h1{
     color: gold;
     font: bold 65px Helvetica, Sans-Serif;
 }
 
 
-.TypistExample h1:hover {
-    color: gold;
-    text-decoration: none; }
-
-.TypistExample-header {
-    position: relative;
-    height:40em;
-    color: gold;
-}
 
