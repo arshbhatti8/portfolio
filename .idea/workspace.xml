@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee2af49b-e9cf-4519-afcc-874048f7c48a" name="Default" comment="Added hotjar to the index.html in build folder">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.3bce7d41.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.3bce7d41.js.map" afterPath="" />
+    <list default="true" id="ee2af49b-e9cf-4519-afcc-874048f7c48a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="$PROJECT_DIR$/build/asset-manifest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="$PROJECT_DIR$/build/service-worker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/HomePageLayout.js" afterPath="$PROJECT_DIR$/src/Components/HomePageLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/ProfileInfo.js" afterPath="$PROJECT_DIR$/src/Components/ProfileInfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/particlesBackground.js" afterPath="$PROJECT_DIR$/src/Components/particlesBackground.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/HomePageLayout.css" afterPath="$PROJECT_DIR$/src/stylesheets/HomePageLayout.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +51,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfileInfo.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="967" lean-forward="false" selection-start-line="0" selection-start-column="967" selection-end-line="0" selection-end-column="967" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileInfo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/ProfileInfo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -209,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/stylesheets/Particles.css" />
         <option value="$PROJECT_DIR$/src/stylesheets/Typist.css" />
         <option value="$PROJECT_DIR$/src/Components/Typist.js" />
-        <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/src/Components/particlesBackground.js" />
         <option value="$PROJECT_DIR$/src/Components/TypistBackground.js" />
         <option value="$PROJECT_DIR$/src/Components/hello.js" />
@@ -218,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/Components/HomePageLayout.js" />
         <option value="$PROJECT_DIR$/src/stylesheets/HomePageLayout.css" />
         <option value="$PROJECT_DIR$/src/Components/ProfileInfo.js" />
+        <option value="$PROJECT_DIR$/build/index.html" />
       </list>
     </option>
   </component>
@@ -236,6 +237,17 @@
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="775" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,13 +277,7 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,6 +292,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/School Work/learningReact/portfolio/src/index.js" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -355,7 +362,7 @@
       <workItem from="1522773387507" duration="327000" />
       <workItem from="1522796044092" duration="3791000" />
       <workItem from="1523136968732" duration="4527000" />
-      <workItem from="1523169617776" duration="1834000" />
+      <workItem from="1523169617776" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="Added Download resume button. Resume download is facilitated by surrounding button with form tag and making a get request">
       <created>1521597885509</created>
@@ -448,11 +455,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523137664512</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Re-Built production build after adding jumping button.">
+      <created>1523171537089</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1523171537090</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229939000" />
+    <option name="totallyTimeSpent" value="230457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,7 +540,8 @@
     <MESSAGE value="Committing production build files." />
     <MESSAGE value="Fix #1 for landing page animation and typing characters" />
     <MESSAGE value="Added hotjar to the index.html in build folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hotjar to the index.html in build folder" />
+    <MESSAGE value="Re-Built production build after adding jumping button." />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-Built production build after adding jumping button." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -788,14 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
@@ -862,6 +869,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="12" column="103" lean-forward="false" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="967" lean-forward="false" selection-start-line="0" selection-start-column="967" selection-end-line="0" selection-end-column="967" />
           <folding />
         </state>
       </provider>
