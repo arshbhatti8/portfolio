@@ -20,3 +20,16 @@
     color:white !important;
 }
 
+@keyframes back-to-docs{
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(1.5em);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

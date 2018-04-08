@@ -8,7 +8,7 @@ class App extends Component {
     state={};
     constructor() {
         super();
-        this.state={isloading:true}
+        this.state={isloading:false}
 
     }
     componentDidMount() {

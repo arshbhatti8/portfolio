@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Grid,Segment} from 'semantic-ui-react'
+import { Container, Grid,Segment,Button} from 'semantic-ui-react'
 import ResponsiveContainer from './ResponsiveContainer';
 import '../stylesheets/HomePageLayout.css';
 import ProfileCard from '../Components/ProfileCard';
@@ -14,6 +14,15 @@ export default class HomePageLayout extends Component {
         return (
             <ResponsiveContainer>
                 <Segment id='About' style={{padding: '8em 0em'}} vertical>
+                    <a href={require("../Assets/Arshpreet_Bhatti-Web Development.docx")}
+                       download>
+                        <Button content="Download Resume"
+                            primary
+                            size='huge'
+                            style={{position: 'fixed',
+                                    margin: '2em', bottom: '0px', left: '0px',
+                                    animation: 'back-to-docs 1.5s ease-in-out infinite', zIndex: '6'}} /></a>
+
                     <Grid container stackable verticalAlign='middle'>
                         <Grid.Row>
                             <Grid.Column width={8}>
