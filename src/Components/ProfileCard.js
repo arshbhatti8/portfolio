@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card,Image,Button} from 'semantic-ui-react';
+    import {Card,Image,Button} from 'semantic-ui-react';
 const ProfileCard = () => {
     return (
         <Card raised centered>
@@ -16,5 +16,5 @@ const ProfileCard = () => {
         </Card>
     );
 
-}
+};
 export default ProfileCard;
