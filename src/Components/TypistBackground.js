@@ -7,15 +7,7 @@ import Radium ,{StyleRoot} from 'radium';
 const style = {
 
 
-    '@media screen and (min-device-width: 800px) and (max-device-width: 1600px)':
-        {
-            position: 'absolute',
-            zIndex: '5',
-            left:'50%',
-            top:'50%',
-            transform:'translate(-50%,-50%)',
-            width:'400px'
-        },
+
     '@media screen and (min-device-width: 320px) and (max-device-width: 736px)':
         {
             position: 'absolute',
